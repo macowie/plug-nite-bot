@@ -1,0 +1,17 @@
+{
+  "name": "plugnitebot",
+  "version": "1.0.0",
+  "description": "Echo Plug.dj activity to Discord",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.0.0",
+    "plugapi": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Cowie <matthew@cowie.me>",
+  "license": "MIT"
+}
