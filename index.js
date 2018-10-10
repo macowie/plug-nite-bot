@@ -26,7 +26,7 @@ discordClient.on("ready", () => {
         return
     
     var message = [data.currentDJ, "played", buildMediaMessage(data.media)].join(" ")
-    console.log(message)
+    console.log(new Date().toLocaleString(), message)
     channel.send(message).catch(logError)
   })
 })
